@@ -92,8 +92,12 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:background="#DCE8B9"
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="474dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.729" />
 
     <View
         android:id="@+id/vwcirculo2"
@@ -102,8 +106,12 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:background="#C0DCFC"
-        tools:layout_editor_absoluteX="244dp"
-        tools:layout_editor_absoluteY="485dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.897"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.804" />
 
     <View
         android:id="@+id/vwcirculo3"
@@ -112,8 +120,12 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:background="#82C2DCF8"
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="564dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897" />
 
     <View
         android:id="@+id/vwcirculo4"
@@ -122,8 +134,12 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:background="#FFD39A"
-        tools:layout_editor_absoluteX="283dp"
-        tools:layout_editor_absoluteY="631dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.72"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.887" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
