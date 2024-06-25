@@ -13,6 +13,15 @@
         android:theme="@style/Theme.PTC"
         tools:targetApi="31">
         <activity
+            android:name=".Contrasenarestablecida"
+            android:exported="false" />
+        <activity
+            android:name=".Nuevacontrasena"
+            android:exported="false" />
+        <activity
+            android:name=".Recuperarcontrasena"
+            android:exported="false" />
+        <activity
             android:name=".paginaprincipalalumnos"
             android:exported="false" />
         <activity

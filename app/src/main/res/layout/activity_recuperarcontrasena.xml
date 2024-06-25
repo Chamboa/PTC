@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Recuperarcontrasena">
+
+    <View
+        android:id="@+id/vwcorreorecucontra"
+        android:layout_width="372dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="284dp"
+        android:background="#E7E5E5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825" />
+
+
+    <EditText
+        android:id="@+id/etxtcorreorecucontra"
+        android:layout_width="341dp"
+        android:layout_height="70dp"
+        android:background="@null"
+        android:ems="10"
+        android:fontFamily="@font/inter_semibold"
+        android:hint="Correo electrónico"
+        android:inputType="text"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.400"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.432" />
+
+    <TextView
+        android:id="@+id/txtcontraolvidada"
+        android:layout_width="289dp"
+        android:layout_height="58dp"
+        android:fontFamily="@font/inter_extrabold"
+        android:text="¿Has olvidado tu contraseña?"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtintroducircorreo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.838" />
+
+
+    <TextView
+        android:id="@+id/txtintroducircorreo"
+        android:layout_width="281dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/inter_extrabold"
+        android:text="Introduce el correo electrónico para cambiar tu contraseña."
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.33"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnsiguiente"
+        android:layout_width="356dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#C2DCF8"
+        android:fontFamily="@font/inter_bold"
+        android:text="Siguiente"
+        android:textColor="#006CDA"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.582" />
+
+    <View
+        android:id="@+id/ellipse_91"
+        android:layout_width="73dp"
+        android:layout_height="72dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#DCE8B9"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="474dp" />
+
+    <View
+        android:id="@+id/ellipse_93"
+        android:layout_width="139dp"
+        android:layout_height="133dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#C0DCFC"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="485dp" />
+
+    <View
+        android:id="@+id/ellipse_92"
+        android:layout_width="103dp"
+        android:layout_height="96dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#82C2DCF8"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="564dp" />
+
+    <View
+        android:id="@+id/ellipse_94"
+        android:layout_width="57dp"
+        android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFD39A"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="631dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
