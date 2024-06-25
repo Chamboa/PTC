@@ -8,7 +8,7 @@
     tools:context=".Contrasenarestablecida">
 
     <TextView
-        android:id="@+id/xito_tu_con"
+        android:id="@+id/txtContrares"
         android:layout_width="367dp"
         android:layout_height="95dp"
         android:layout_alignParentLeft="true"
@@ -20,14 +20,14 @@
         android:textAlignment="textStart"
         android:textColor="#000000"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/asegurate_d"
+        app:layout_constraintBottom_toTopOf="@+id/txtRecordatorio"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.037" />
 
     <TextView
-        android:id="@+id/asegurate_d"
+        android:id="@+id/txtRecordatorio"
         android:layout_width="348dp"
         android:layout_height="94dp"
         android:layout_alignParentLeft="true"
