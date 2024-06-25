@@ -24,7 +24,7 @@
         android:textSize="30sp"
         android:textStyle="bold"
         android:typeface="normal"
-        app:layout_constraintBottom_toTopOf="@+id/vwcorreo"
+        app:layout_constraintBottom_toTopOf="@+id/vwcorreorecucontra"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,13 +32,13 @@
         app:layout_constraintVertical_bias="0.736" />
 
     <View
-        android:id="@+id/vwcorreo"
+        android:id="@+id/vwcorreorecucontra"
         android:layout_width="372dp"
         android:layout_height="75dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:background="#E7E5E5"
-        app:layout_constraintBottom_toTopOf="@+id/vwcontrasena"
+        app:layout_constraintBottom_toTopOf="@+id/vwnuevacontra"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,7 +46,7 @@
         app:layout_constraintVertical_bias="0.825" />
 
     <View
-        android:id="@+id/vwcontrasena"
+        android:id="@+id/vwnuevacontra"
         android:layout_width="372dp"
         android:layout_height="75dp"
         android:layout_alignParentLeft="true"
@@ -75,21 +75,26 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/etxtcorreo"
-        android:layout_width="335dp"
-        android:layout_height="52dp"
+        android:id="@+id/etxtcorreorecucontra"
+        android:layout_width="356dp"
+        android:layout_height="56dp"
         android:background="@null"
         android:ems="10"
         android:fontFamily="@font/inter_semibold"
         android:hint="Correo electrónico"
         android:inputType="text"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="239dp" />
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.322" />
 
     <EditText
-        android:id="@+id/etxtcontrasena"
-        android:layout_width="333dp"
-        android:layout_height="53dp"
+        android:id="@+id/etxtnuevacontra"
+        android:layout_width="351dp"
+        android:layout_height="50dp"
         android:background="@null"
         android:ems="10"
         android:fontFamily="@font/inter_semibold"
@@ -97,10 +102,9 @@
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.532" />
+        app:layout_constraintVertical_bias="0.499" />
 
     <Button
         android:id="@+id/button2"
@@ -120,7 +124,7 @@
         app:layout_constraintVertical_bias="0.925" />
 
     <View
-        android:id="@+id/ellipse_92"
+        android:id="@+id/vwelipse10"
         android:layout_width="28dp"
         android:layout_height="28dp"
         android:layout_alignParentLeft="true"
@@ -134,7 +138,7 @@
         app:layout_constraintVertical_bias="0.045" />
 
     <View
-        android:id="@+id/ellipse_91"
+        android:id="@+id/vwelipse8"
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:layout_alignParentLeft="true"
@@ -148,7 +152,7 @@
         app:layout_constraintVertical_bias="0.082" />
 
     <View
-        android:id="@+id/ellipse_93"
+        android:id="@+id/vwelipse9"
         android:layout_width="55dp"
         android:layout_height="55dp"
         android:layout_alignParentLeft="true"
@@ -162,7 +166,7 @@
         app:layout_constraintVertical_bias="0.112" />
 
     <View
-        android:id="@+id/ellipse_94"
+        android:id="@+id/vwelipse11"
         android:layout_width="33dp"
         android:layout_height="33dp"
         android:layout_alignParentLeft="true"
@@ -176,7 +180,7 @@
         app:layout_constraintVertical_bias="0.187" />
 
     <View
-        android:id="@+id/ellipse_95"
+        android:id="@+id/vwelipse6"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_alignParentLeft="true"
@@ -190,7 +194,7 @@
         app:layout_constraintVertical_bias="0.917" />
 
     <View
-        android:id="@+id/ellipse_97"
+        android:id="@+id/vwelipse5"
         android:layout_width="55dp"
         android:layout_height="55dp"
         android:layout_alignParentLeft="true"
@@ -204,7 +208,7 @@
         app:layout_constraintVertical_bias="0.831" />
 
     <View
-        android:id="@+id/ellipse_96"
+        android:id="@+id/vwelipse7"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_alignParentLeft="true"
