@@ -124,7 +124,7 @@
         app:layout_constraintVertical_bias="0.925" />
 
     <View
-        android:id="@+id/ellipse_92"
+        android:id="@+id/vwcirculo3"
         android:layout_width="28dp"
         android:layout_height="28dp"
         android:layout_alignParentLeft="true"
@@ -138,7 +138,7 @@
         app:layout_constraintVertical_bias="0.045" />
 
     <View
-        android:id="@+id/ellipse_91"
+        android:id="@+id/vwcirculo1"
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:layout_alignParentLeft="true"
@@ -152,7 +152,7 @@
         app:layout_constraintVertical_bias="0.082" />
 
     <View
-        android:id="@+id/ellipse_93"
+        android:id="@+id/vwcirculo2"
         android:layout_width="55dp"
         android:layout_height="55dp"
         android:layout_alignParentLeft="true"
@@ -166,7 +166,7 @@
         app:layout_constraintVertical_bias="0.112" />
 
     <View
-        android:id="@+id/ellipse_94"
+        android:id="@+id/vwcirculo4"
         android:layout_width="33dp"
         android:layout_height="33dp"
         android:layout_alignParentLeft="true"
