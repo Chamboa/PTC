@@ -1,6 +1,11 @@
+<resources>
+    <string name="app_name">PTC</string>
 
-    <resources>
-        <string name="app_name">PTC</string>
-
-        <string name="txtfraseinicial">Convierte tu tiempo en acción.</string>
-    </resources>
+    <string name="txtfraseinicial">Convierte tu tiempo en acción.</string>
+    <string name="title_activity_pantallaprincipaladmin">pantallaprincipaladmin</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_pantallaprincipalcoordi">pantallaprincipalcoordi</string>
+    <string name="title_activity_pantallaprincipalalum">pantallaprincipalalum</string>
+</resources>

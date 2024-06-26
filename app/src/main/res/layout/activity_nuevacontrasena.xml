@@ -103,6 +103,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="240dp"
         android:background="#E7E5E5"
+        app:layout_constraintBottom_toTopOf="@+id/vwnuevacontra"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"

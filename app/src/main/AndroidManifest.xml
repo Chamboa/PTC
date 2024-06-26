@@ -12,7 +12,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PTC"
         tools:targetApi="31">
-
+        <activity
+            android:name=".pantallaprincipalalum"
+            android:exported="false"
+            android:label="@string/title_activity_pantallaprincipalalum" />
+        <activity
+            android:name=".pantallaprincipalcoordi"
+            android:exported="false"
+            android:label="@string/title_activity_pantallaprincipalcoordi" />
+        <activity
+            android:name=".pantallaprincipaladmin"
+            android:exported="false"
+            android:label="@string/title_activity_pantallaprincipaladmin" />
+        <activity
+            android:name=".Pantallaprincipaladministrador"
+            android:exported="false" />
+        <activity
+            android:name=".Pantallaprincipalcoordinador"
+            android:exported="false" />
         <activity
             android:name=".Contrasenarestablecida"
             android:exported="false" />
@@ -24,25 +41,20 @@
             android:exported="false" />
         <activity
             android:name=".paginaprincipalalumnos"
-            android:exported="true" >
-
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-        </activity>
-
+            android:exported="false" />
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
-
     </application>
 
 </manifest>
