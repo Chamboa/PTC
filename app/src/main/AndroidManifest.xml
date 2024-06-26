@@ -35,20 +35,17 @@
             </intent-filter>
         </activity>
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
+
         <activity
             android:name=".MainActivity"
             android:exported="false">
         </activity>
 
->>>>>>> Levi
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
->>>>>>> Levi
+
     </application>
 
 </manifest>
