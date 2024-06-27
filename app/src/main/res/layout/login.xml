@@ -26,10 +26,10 @@
         android:typeface="normal"
         app:layout_constraintBottom_toTopOf="@+id/vwcorreorecucontra"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.589"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.736" />
+        app:layout_constraintVertical_bias="0.766" />
 
     <View
         android:id="@+id/vwcorreorecucontra"
@@ -63,7 +63,7 @@
         android:id="@+id/btniniciarsesion"
         android:layout_width="356dp"
         android:layout_height="60dp"
-        android:layout_marginBottom="192dp"
+        android:layout_marginBottom="208dp"
         android:backgroundTint="#C2DCF8"
         android:fontFamily="@font/inter_bold"
         android:text="Iniciar Sesion"
@@ -71,28 +71,27 @@
         android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintHorizontal_bias="0.545"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/etxtcorreorecucontra"
-        android:layout_width="356dp"
-        android:layout_height="56dp"
+        android:layout_width="351dp"
+        android:layout_height="50dp"
         android:background="@null"
         android:ems="10"
         android:fontFamily="@font/inter_semibold"
         android:hint="Correo electrónico"
         android:inputType="text"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/vwcorreorecucontra"
+        app:layout_constraintEnd_toEndOf="@+id/vwcorreorecucontra"
         app:layout_constraintHorizontal_bias="0.454"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.322" />
+        app:layout_constraintStart_toStartOf="@+id/vwcorreorecucontra"
+        app:layout_constraintTop_toTopOf="@+id/vwcorreorecucontra" />
 
     <EditText
-        android:id="@+id/etxtnuevacontra"
+        android:id="@+id/etxtnewcontra"
         android:layout_width="351dp"
         android:layout_height="50dp"
         android:background="@null"
@@ -100,126 +99,50 @@
         android:fontFamily="@font/inter_semibold"
         android:hint="Contraseña"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/vwnuevacontra"
+        app:layout_constraintEnd_toEndOf="@+id/vwnuevacontra"
+        app:layout_constraintStart_toStartOf="@+id/vwnuevacontra"
+        app:layout_constraintTop_toTopOf="@+id/vwnuevacontra"
         app:layout_constraintVertical_bias="0.499" />
 
     <Button
         android:id="@+id/btncontraolvidada"
-        android:layout_width="236dp"
-        android:layout_height="39dp"
+        android:layout_width="240dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="384dp"
         android:background="@null"
         android:backgroundTint="#FFFF"
         android:fontFamily="@font/inter_bold"
         android:text="¿Olvidaste tu contraseña?"
+        android:textAlignment="viewStart"
         android:textColor="#1B9BAB"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/btniniciarsesion"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="144dp"
+        android:layout_height="149dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.925" />
+        app:srcCompat="@drawable/eliploguno" />
 
-    <View
-        android:id="@+id/vwelipse10"
-        android:layout_width="28dp"
-        android:layout_height="28dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:background="#FFC374"
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="188dp"
+        android:layout_height="171dp"
+        android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintHorizontal_bias="0.865"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.045" />
-
-    <View
-        android:id="@+id/vwelipse8"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:background="#C0DCFC"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.173"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.082" />
-
-    <View
-        android:id="@+id/vwelipse9"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:background="#BCCF84"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.053"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.112" />
-
-    <View
-        android:id="@+id/vwelipse11"
-        android:layout_width="33dp"
-        android:layout_height="33dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:background="#C7F7F5"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.158"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.187" />
-
-    <View
-        android:id="@+id/vwelipse6"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:background="#F28393"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.733"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.917" />
-
-    <View
-        android:id="@+id/vwelipse5"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:background="#DCE8B9"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.87"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.831" />
-
-    <View
-        android:id="@+id/vwelipse7"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:background="#C0DCFC"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.797"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.958" />
+        app:srcCompat="@drawable/eliplogdos" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
