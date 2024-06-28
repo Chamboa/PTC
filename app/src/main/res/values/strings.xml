@@ -8,4 +8,5 @@
     <string name="title_notifications">Notifications</string>
     <string name="title_activity_pantallaprincipalcoordi">pantallaprincipalcoordi</string>
     <string name="title_activity_pantallaprincipalalum">pantallaprincipalalum</string>
+    <string name="title_activity_pantallaprincipalalumnos">pantallaprincipalalumnos</string>
 </resources>
