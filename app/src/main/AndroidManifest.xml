@@ -19,32 +19,12 @@
             android:name=".recuperarcontrasena"
             android:exported="false" />
         <activity
-            android:name=".pantallaprincipalalum"
-            android:exported="false"
-            android:label="@string/title_activity_pantallaprincipalalum" />
-        <activity
-            android:name=".pantallaprincipalcoordi"
-            android:exported="false"
-            android:label="@string/title_activity_pantallaprincipalcoordi" />
-        <activity
-            android:name=".pantallaprincipaladmin"
-            android:exported="false"
-            android:label="@string/title_activity_pantallaprincipaladmin" />
-        <activity
-            android:name=".Pantallaprincipaladministrador"
-            android:exported="false" />
-        <activity
-            android:name=".Pantallaprincipalcoordinador"
-            android:exported="false" />
-        <activity
             android:name=".Contrasenarestablecida"
             android:exported="false" />
         <activity
             android:name=".Nuevacontrasena"
             android:exported="false" />
-        <activity
-            android:name=".Recuperarcontrasena"
-            android:exported="false" />
+
         <activity
             android:name=".paginaprincipalalumnos"
             android:exported="true" >
