@@ -8,23 +8,6 @@
     tools:context=".paginaprincipalalumnos">
 
 
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/lottieAnimationView"
-        android:layout_width="186dp"
-        android:layout_height="157dp"
-
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.947"
-        app:lottie_autoPlay="true"
-        app:lottie_loop="true"
-        app:lottie_rawRes="@raw/oscuroclaro">
-
-    </com.airbnb.lottie.LottieAnimationView>
-
     <TextView
         android:id="@+id/txtiniciarsesion"
         android:layout_width="338dp"
@@ -39,7 +22,7 @@
         android:textSize="30sp"
         android:textStyle="bold"
         android:typeface="normal"
-        app:layout_constraintBottom_toTopOf="@+id/vwcorreorecucontra"
+        app:layout_constraintBottom_toTopOf="@+id/vwcodigorecu"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.589"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,7 +30,7 @@
         app:layout_constraintVertical_bias="0.766" />
 
     <View
-        android:id="@+id/vwcorreorecucontra"
+        android:id="@+id/vwcodigorecu"
         android:layout_width="372dp"
         android:layout_height="75dp"
         android:layout_alignParentLeft="true"
@@ -66,13 +49,13 @@
         android:layout_height="75dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
+        android:layout_marginTop="300dp"
         android:background="#E7E5E5"
-        app:layout_constraintBottom_toTopOf="@+id/btniniciarsesion"
+        app:layout_constraintBottom_toTopOf="@+id/btncontraolvidada"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.757" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btniniciarsesion"
@@ -90,7 +73,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/etxtcorreorecucontra"
+        android:id="@+id/txtcorreologin"
         android:layout_width="351dp"
         android:layout_height="50dp"
         android:background="@null"
@@ -99,14 +82,14 @@
         android:hint="Correo electrónico"
         android:inputType="text"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/vwcorreorecucontra"
-        app:layout_constraintEnd_toEndOf="@+id/vwcorreorecucontra"
+        app:layout_constraintBottom_toBottomOf="@+id/vwcodigorecu"
+        app:layout_constraintEnd_toEndOf="@+id/vwcodigorecu"
         app:layout_constraintHorizontal_bias="0.454"
-        app:layout_constraintStart_toStartOf="@+id/vwcorreorecucontra"
-        app:layout_constraintTop_toTopOf="@+id/vwcorreorecucontra" />
+        app:layout_constraintStart_toStartOf="@+id/vwcodigorecu"
+        app:layout_constraintTop_toTopOf="@+id/vwcodigorecu" />
 
     <EditText
-        android:id="@+id/etxtnewcontra"
+        android:id="@+id/txtcontralogin"
         android:layout_width="351dp"
         android:layout_height="50dp"
         android:background="@null"
@@ -131,12 +114,14 @@
         android:fontFamily="@font/inter_bold"
         android:text="¿Olvidaste tu contraseña?"
         android:textAlignment="viewStart"
-        android:textColor="#1B9BAB"
+        android:textColor="#006CDA"
         android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/btniniciarsesion"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintHorizontal_bias="0.093"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -158,6 +143,14 @@
         app:layout_constraintHorizontal_bias="0.865"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/eliplogdos" />
+
+    <ImageView
+        android:id="@+id/idvercontra"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/vercontrasena"
+        tools:layout_editor_absoluteX="329dp"
+        tools:layout_editor_absoluteY="338dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
