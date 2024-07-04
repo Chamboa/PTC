@@ -148,9 +148,13 @@
         android:id="@+id/idvercontra"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        app:srcCompat="@drawable/vercontrasena"
-        tools:layout_editor_absoluteX="329dp"
-        tools:layout_editor_absoluteY="338dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/txtcontralogin"
+        app:layout_constraintEnd_toEndOf="@+id/txtcontralogin"
+        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintStart_toStartOf="@+id/txtcontralogin"
+        app:layout_constraintTop_toTopOf="@+id/txtcontralogin"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/vercontrasena" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
